@@ -7,10 +7,11 @@ CMakeSettings.json
 out/
 .cache/
 .vs/
-**/__pycache__/**
+__pycache__/
 *.log
 core
 .qt_for_python
+*.egg-info
 
 # Prerequisites
 *.d

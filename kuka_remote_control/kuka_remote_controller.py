@@ -6,7 +6,7 @@ from typing import List, Optional, Dict
 
 from loguru import logger
 
-from kuka_c3_bridge_client import C3BridgeClient
+from .kuka_c3_bridge_client import C3BridgeClient
 
 logger.remove(0)
 logger.add(sys.stderr, level="INFO")

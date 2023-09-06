@@ -2,6 +2,14 @@
 
 Control KUKA robot remotely via socket.
 
+# Install
+
+Clone the repo to you PC and install it with python pip:
+
+```
+pip install .
+```
+
 # Configuration
 - 设置机器人网络IP，将电脑和机器人控制器内KLI网口连接
 - 将[C3Bridge.exe](./application/C3Bridge.exe)复制到库卡的windows系统中，并设置开机启动。
